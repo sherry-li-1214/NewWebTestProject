@@ -1,0 +1,22 @@
+{
+  "job":{
+    "jobName": "Job 5",
+    "jobDescription": "Job Description for Edit a Job",
+    "backupStrategy":"Disk to local storage",
+     "DestinationCloudType":"Amazon AWS",
+    "ScheduledBackUpTime":"12:30 PM",
+     "DaysForBackUp":"Monday,Wednesday,Friday",
+     "RetentionSchema":"2 weeks"
+  } ,
+  "jobRunProperty":{
+    "runtimes":3,
+    "addedFiles":["a1","a2","a3"],
+    "deleteFiles":["b1","b2","b3"],
+    "TestDataFolder":"testdata"
+  },
+  "jobRecoveryProperty":{
+    "recoverDriver": "I:",
+    "restoreLocation":"C:\\temp2"
+  }
+ 
+}
